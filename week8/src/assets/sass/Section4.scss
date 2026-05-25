@@ -1,0 +1,34 @@
+.section4_wrap {
+    font-family: 'Pretendard', sans-serif;
+    padding: 40px 60px 60px;
+
+    .section4_header {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 16px;
+
+        .insta_handle {
+            font-size: 15px;
+            font-weight: 600;
+            color: #111;
+        }
+    }
+
+    .img_grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 8px;
+
+        [class^="list"] {
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+
+            .grid_img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+    }
+}

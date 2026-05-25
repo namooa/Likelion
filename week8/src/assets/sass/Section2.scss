@@ -1,0 +1,106 @@
+.section2_wrap {
+    font-family: 'Pretendard', sans-serif;
+    padding: 60px 60px 60px;
+
+    .section2_title {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 28px 0;
+    }
+
+    .section2_tabs {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 40px 0;
+        gap: 40px;
+        border-bottom: 1px solid #e5e5e5;
+
+        .tab {
+            font-size: 15px;
+            font-weight: 500;
+            color: #999;
+            cursor: pointer;
+            padding-bottom: 12px;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -1px;
+
+            &.active {
+                color: #111;
+                font-weight: 700;
+                border-bottom: 2px solid #111;
+            }
+
+            &:not(.active):hover {
+                color: #555;
+            }
+        }
+    }
+
+    .product_list {
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        padding-bottom: 8px;
+
+        &::-webkit-scrollbar {
+            height: 4px;
+        }
+        &::-webkit-scrollbar-track {
+            background: #f0f0f0;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 2px;
+        }
+
+        [class^="list"] {
+            flex: 0 0 230px;
+            cursor: pointer;
+
+            .product_img {
+                width: 345px;
+                height: 460px;
+                display: block;
+            }
+
+            .text_wrap {
+                padding: 12px 4px 0;
+
+                .tags {
+                    font-size: 12px;
+                    color: #999;
+                    margin: 0 0 6px 0;
+                }
+
+                .title {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #111;
+                    margin: 0 0 8px 0;
+                    line-height: 1.4;
+                }
+
+                .price {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #111;
+
+                    .heart {
+                        font-size: 18px;
+                        color: #999;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: #e00;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

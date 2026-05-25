@@ -1,0 +1,87 @@
+.hero_section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    .hero_img {
+        width: 100%;
+        display: block;
+    }
+
+    .hero_content {
+        position: absolute;
+        bottom: 120px;
+        left: 80px;
+
+        .hero_title {
+            font-family: 'Pretendard', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #fff;
+            margin: 0 0 24px 0;
+        }
+
+        .hero_btn {
+            background: transparent;
+            border: 2px solid rgba(255, 255, 255, 0.8);
+            color: #fff;
+            font-family: 'Pretendard', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 10px 28px;
+            cursor: pointer;
+            letter-spacing: 0.05em;
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.15);
+            }
+        }
+    }
+
+    .carousel_dots {
+        position: absolute;
+        bottom: 44px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 6px;
+
+        .dot {
+            width: 36px;
+            height: 3px;
+            background: rgba(255, 255, 255, 0.35);
+            border-radius: 2px;
+            cursor: pointer;
+
+            &.active {
+                background: #fff;
+            }
+        }
+    }
+
+    .carousel_arrows {
+        position: absolute;
+        bottom: 32px;
+        right: 60px;
+        display: flex;
+        gap: 2px;
+
+        .arrow {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            color: #fff;
+            width: 36px;
+            height: 36px;
+            font-size: 22px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.15);
+            }
+        }
+    }
+}

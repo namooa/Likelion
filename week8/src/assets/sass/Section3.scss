@@ -1,0 +1,55 @@
+.section3_wrap {
+    font-family: 'Pretendard', sans-serif;
+    padding: 60px 60px;
+
+    .section3_title {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 32px 0;
+    }
+
+    .card_list {
+        display: flex;
+        gap: 24px;
+
+        [class^="list"] {
+            flex: 1;
+
+            .card_img {
+                width: 100%;
+                display: block;
+            }
+
+            .text_wrap {
+                padding: 20px 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+
+                .title {
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #111;
+                }
+
+                .detail_btn {
+                    background: transparent;
+                    border: 1px solid #999;
+                    color: #555;
+                    font-family: 'Pretendard', sans-serif;
+                    font-size: 13px;
+                    padding: 8px 24px;
+                    cursor: pointer;
+
+                    &:hover {
+                        border-color: #111;
+                        color: #111;
+                    }
+                }
+            }
+        }
+    }
+}
