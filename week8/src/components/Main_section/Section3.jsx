@@ -9,14 +9,14 @@ const Section3 = () => {
       <div className='section3_wrap'>
         <div className='section3_title'>기획전</div>
         <div className='card_list'>
-          <div className='list1'>
+          <div className='list'>
             <img src={img1} alt="" className='card_img' />
             <div className='text_wrap'>
               <div className='title'>FILA CUSTOM STUDIO</div>
               <button className='detail_btn'>자세히 보기</button>
             </div>
           </div>
-          <div className='list2'>
+          <div className='list'>
             <img src={img2} alt="" className='card_img' />
             <div className='text_wrap'>
               <div className='title'>Pertex Life</div>

@@ -19,34 +19,34 @@ const Section4 = () => {
           <div className='insta_handle'>@fila_korea</div>
         </div>
         <div className='img_grid'>
-          <div className='list1'>
+          <div className='list'>
             <img src={img1} alt="" className='grid_img' />
           </div>
-          <div className='list2'>
+          <div className='list'>
             <img src={img2} alt="" className='grid_img' />
           </div>
-          <div className='list3'>
+          <div className='list'>
             <img src={img3} alt="" className='grid_img' />
           </div>
-          <div className='list4'>
+          <div className='list'>
             <img src={img4} alt="" className='grid_img' />
           </div>
-          <div className='list5'>
+          <div className='list'>
             <img src={img5} alt="" className='grid_img' />
           </div>
-          <div className='list6'>
+          <div className='list'>
             <img src={img6} alt="" className='grid_img' />
           </div>
-          <div className='list7'>
+          <div className='list'>
             <img src={img7} alt="" className='grid_img' />
           </div>
-          <div className='list8'>
+          <div className='list'>
             <img src={img8} alt="" className='grid_img' />
           </div>
-          <div className='list9'>
+          <div className='list'>
             <img src={img9} alt="" className='grid_img' />
           </div>
-          <div className='list10'>
+          <div className='list0'>
             <img src={img10} alt="" className='grid_img' />
           </div>
         </div>

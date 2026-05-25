@@ -21,7 +21,7 @@ const Section2 = () => {
           <div className='tab'># 인터런</div>
         </div>
         <div className='product_list'>
-          <div className='list1'>
+          <div className='list'>
             <img src={img1} alt="" className='product_img' />
             <div className='text_wrap'>
               <div className='tags'>공용&nbsp;&nbsp;컴포트핏&nbsp;&nbsp;라이프스타일</div>
@@ -29,7 +29,7 @@ const Section2 = () => {
               <div className='price'>49,000원 <span className='heart'>♡</span></div>
             </div>
           </div>
-          <div className='list2'>
+          <div className='list'>
             <img src={img2} alt="" className='product_img' />
             <div className='text_wrap'>
               <div className='tags'>공용&nbsp;&nbsp;컴포트핏&nbsp;&nbsp;라이프스타일</div>
@@ -37,7 +37,7 @@ const Section2 = () => {
               <div className='price'>49,000원 <span className='heart'>♡</span></div>
             </div>
           </div>
-          <div className='list3'>
+          <div className='list'>
             <img src={img3} alt="" className='product_img' />
             <div className='text_wrap'>
               <div className='tags'>공용&nbsp;&nbsp;컴포트핏&nbsp;&nbsp;라이프스타일</div>
@@ -45,7 +45,7 @@ const Section2 = () => {
               <div className='price'>49,000원 <span className='heart'>♡</span></div>
             </div>
           </div>
-          <div className='list4'>
+          <div className='list'>
             <img src={img4} alt="" className='product_img' />
             <div className='text_wrap'>
               <div className='tags'>공용&nbsp;&nbsp;컴포트핏&nbsp;&nbsp;라이프스타일</div>
@@ -53,7 +53,7 @@ const Section2 = () => {
               <div className='price'>49,000원 <span className='heart'>♡</span></div>
             </div>
           </div>
-          <div className='list5'>
+          <div className='list'>
             <img src={img5} alt="" className='product_img' />
             <div className='text_wrap'>
               <div className='tags'>공용&nbsp;&nbsp;컴포트핏&nbsp;&nbsp;라이프스타일</div>
@@ -61,7 +61,7 @@ const Section2 = () => {
               <div className='price'>49,000원 <span className='heart'>♡</span></div>
             </div>
           </div>
-          <div className='list6'>
+          <div className='list'>
             <img src={img6} alt="" className='product_img' />
             <div className='text_wrap'>
               <div className='tags'>공용&nbsp;&nbsp;컴포트핏&nbsp;&nbsp;라이프스타일</div>
@@ -69,7 +69,7 @@ const Section2 = () => {
               <div className='price'>49,000원 <span className='heart'>♡</span></div>
             </div>
           </div>
-          <div className='list7'>
+          <div className='list'>
             <img src={img7} alt="" className='product_img' />
             <div className='text_wrap'>
               <div className='tags'>공용&nbsp;&nbsp;컴포트핏&nbsp;&nbsp;라이프스타일</div>
